@@ -59,10 +59,10 @@ body{
 #TitlePage{
     margin: 10px;
     color: #198eb5;
-    font-size: 3em;
+    font-size: 3em;font-family: segoe print;
     position: absolute;
-    top: 20px;
-    left: 10px;
+	top: 20px;
+	left: 10px;
 }
 
 .main{
@@ -100,8 +100,8 @@ body{
 
 p{
     padding: 5px;
-    color: black;
-    font-family: Arial;
+    color: Black;
+    font-family: Candara;
 }
 
 a{
@@ -118,13 +118,13 @@ a:hover{
 .PostName{
     text-decoration: none;
     font-size: 2em;
-    color: black;
-    font-family: fantasy;
+    color: Black;
+    font-family: Verdana;
 }
 
 .postname:hover{
     text-decoration: none;
-    color: white;
+    color: Black;
 }
 
 .Poster{
