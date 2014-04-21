@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+
+body{
+    background-image: none;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.PostH{
+    background-image: none;
+    background-color: transparent;
+    width: 580px;
+}
+
+#MainH{
+    width: 100%;
+    border: 0px;
+}
+
+.pages{
+    margin: 10px auto;
+    width: 900px;
+    position: relative;
+}
+
+.pageT{
+    margin: 0;
+    top: 0;
+    width: 900px;
+    min-height: 700px;
+    background-color: transparent;
+    position: fixed;
+    opacity: 1;
+}
+
+.pageM{
+    margin: 0;
+    top: 0;
+    width: 900px;
+    position: absolute;
+    background-color: white;
+}
+
+.header{
+    background-image: url("../images/header.png");
+    background-color: transparent;
+    height: 300px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#TitlePage{
+    margin: 10px;
+    color: #198eb5;
+    font-size: 3em;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.main{
+    margin: 10px 5px;
+    padding: 5px;
+    float: left;
+    width: 580px;
+    min-height: 500px;
+}
+
+.menu{
+    margin: 10px 5px;
+    padding: 5px;
+    float: right;
+    width: 280px;
+    min-height: 300px;
+}
+
+.footer{
+    background-image: none;
+    background-color: white;
+    border-top: 2px solid #b7b7b7;
+    margin: 0;
+    padding: 10px;
+    clear: both;
+    min-height: 80px;
+}
+
+.mainContent{
+    margin: 0;
+    padding: 5px;
+    min-height: 100px;
+    max-height: 500px;
+}
+
+p{
+    padding: 5px;
+    color: black;
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #1d6bca;
+    cursor: hand;
+}
+
+.PostName{
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+    font-family: fantasy;
+}
+
+.postname:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.Poster{
+    float: left;
+}
+
+.PostTime{
+    float: right;
+}
+
+.EndPost{
+    clear: both;
+}
+
+.lineA{
+    border: 1px solid black;
+}
+
+.pre{
+    margin: 0;
+    padding: 10px;
+    float: left;
+    width: 235px;
+}
+
+.home{
+    margin: 0;
+    padding: 10px;
+    float: left;
+}
+
+.next{
+    margin: 0;
+    padding: 10px;
+    float: right;
+}
+
+h3{
+    color: black;
+    font-size: 1.5em;
+}
+
+h5{
+    text-align: center;
+}
+
+.CommentBox{
+    height: 500px;
+}
+
+.ContentPost{
+
+}
+
+h2{
+    font-size: 2em;
+}
